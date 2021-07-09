@@ -1,0 +1,20 @@
+{
+  "name": "@jace1995/load-config",
+  "version": "0.2.5",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/test.ts"
+  },
+  "dependencies": {
+    "@types/node": "^14.11.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.13",
+    "@types/mocha": "^8.0.3",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
